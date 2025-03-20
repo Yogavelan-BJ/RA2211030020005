@@ -1,5 +1,6 @@
 export async function usersController(req, res) {
   try {
+    //the provided Auth token is not valid. I am getting error stating Unauthorized. I registerd and got my aauth token as mentioned in the instructions
     fetch("http://20.244.56.144/test/users", {
       method: "GET",
       headers: {
