@@ -9,7 +9,7 @@ function NavBar() {
         Feed
       </button>
       <button onClick={() => nav("/top-users")} className="mx-2 cursor-pointer">
-        Top-Posts
+        Top-Users
       </button>
       <button
         onClick={() => nav("/trending-posts")}
